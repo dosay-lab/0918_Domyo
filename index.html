@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  <style>
+    :root {
+      --bg: #dff3ff;
+      --text: #1f3b57;
+      --subtext: #4e6a84;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+      padding: 48px 32px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      line-height: 1.1;
+      letter-spacing: 0.04em;
+    }
+
+    p {
+      margin: 16px 0 0;
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
+      color: var(--subtext);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Hello World</h1>
+    <p>Codexで作成しました</p>
+  </main>
+</body>
+</html>
